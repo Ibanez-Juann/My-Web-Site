@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Contact</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo-container">
+                <a href="../index.html">
+                    <img src="" alt="Logo">
+                </a>
+            </div>
+
+            <div class="list">
+                <ul><a href="../index.html">Home</a></ul>
+                <ul><a href="./about us.html">About us</a></ul>
+                <ul><a href="./contact.html">Contact</a></ul>
+                <ul><a href="./services.html">Services</a></ul>
+                <ul><a href="./works.html">Works</a></ul>
+            </div>
+
+            <div class="search-container">
+                <form class="form-container" action="#">
+                    <input class="search" type="search" placeholder="Buscar..." name="search">
+                    <button class="search-button" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="hero">
+            <h1>Contact</h1>
+        </div>
+    </header>
+    <main class="main-contact">
+        <h2>Formulario de Contacto</h2>
+
+        <form action="#" method="post" class="form">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="empresa">Nombre de la Empresa:</label>
+            <input type="text" id="empresa" name="empresa">
+
+            <label for="telefono">Número de Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono">
+
+            <label for="redes">Redes Sociales o Sitio Web:</label>
+            <input type="text" id="redes" name="redes">
+
+            <label for="como_encontro">¿Cómo nos encontró?:</label>
+            <select id="como_encontro" name="como_encontro">
+                <option value="busqueda">Búsqueda en Internet</option>
+                <option value="redes_sociales">Redes Sociales</option>
+                <option value="recomendacion">Recomendación de un amigo</option>
+                <option value="otros">Otros</option>
+            </select>
+
+            <label for="comentario">Comentario:</label><br>
+            <textarea id="comentario" name="comentario" rows="4" cols="50"></textarea><br><br>
+
+            <label>¿Qué servicios requiere?</label><br>
+            <input type="checkbox" id="meta_ads" name="servicios[]"
+                value="Meta Ads - Publicidad en Facebook e Instagram">
+            <label for="meta_ads">Meta Ads - Publicidad en Facebook e Instagram</label><br>
+
+            <input type="checkbox" id="google_ads" name="servicios[]" value="Google Ads - Publicidad en Google">
+            <label for="google_ads">Google Ads - Publicidad en Google</label><br>
+
+            <input type="checkbox" id="social_media_manager" name="servicios[]" value="Social Media Manager">
+            <label for="social_media_manager">Social Media Manager</label><br>
+
+            <input type="checkbox" id="diseno_web" name="servicios[]" value="Diseño Web y/o Ecommerce">
+            <label for="diseno_web">Diseño Web y/o Ecommerce</label><br>
+
+            <input type="checkbox" id="email_marketing" name="servicios[]" value="Email Marketing">
+            <label for="email_marketing">Email Marketing</label><br>
+
+            <input type="checkbox" id="otros_marketing" name="servicios[]" value="Otros servicios de Marketing Digital">
+            <label for="otros_marketing">Otros servicios de Marketing Digital</label><br>
+
+            <input type="checkbox" id="otros_redes" name="servicios[]"
+                value="Otros servicios asociados a Redes Sociales">
+            <label for="otros_redes">Otros servicios asociados a Redes Sociales</label><br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+    <footer>
+        <div class="list-footer">
+            <ul><a href="../index.html">Home</a></ul>
+            <ul><a href="./about us.html">About us</a></ul>
+            <ul><a href="./contact.html">Contact</a></ul>
+            <ul><a href="./services.html">Services</a></ul>
+            <ul><a href="./works.html">Works</a></ul>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
