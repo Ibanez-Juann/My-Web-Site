@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "node-sass": "^9.0.0",
+    "nodemon": "^3.1.0"
+  },
+  "name": "web-site",
+  "description": "��#\u0000 \u0000M\u0000y\u0000-\u0000W\u0000e\u0000b\u0000-\u0000S\u0000i\u0000t\u0000e\u0000\r\u0000 \u0000",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss css/style.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "",
+  "license": "ISC"
+}
