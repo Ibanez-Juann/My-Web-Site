@@ -209,8 +209,18 @@ select {
 
 /* main Works */
 
+.main-works .works{
+    margin: 80px;
+}
 .works .gallery-item img {
     width: 400px;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 40vmax;
+    justify-content: center;
+    align-content: center;
 }
 
 footer {
