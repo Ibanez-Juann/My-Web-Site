@@ -1,0 +1,42 @@
+footer {
+    background-color: #333;
+
+    .list-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        a {
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-size: medium;
+            font-weight: bold;
+            font-style: normal;
+        }
+    }
+
+    .social-media {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        .instagram {
+            @include redes-sociales (pink);
+        }
+
+        .facebook {
+            @include redes-sociales (blue);
+        }
+
+        .whatsapp {
+            @include redes-sociales (green);
+        }
+    }
+}
+
+/* .footer-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+} */

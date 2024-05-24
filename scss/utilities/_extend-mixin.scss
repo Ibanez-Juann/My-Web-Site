@@ -1,0 +1,39 @@
+//extend
+
+.flex-row-modular {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    justify-items: center; */
+
+}
+
+
+//mixins
+
+@mixin redes-sociales ($color){
+    color: $color;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: medium;
+    font-weight: bold;
+    font-style: normal;
+}
+
+//keyframes
+@keyframes text-in-opacity {
+    0%{ opacity: 0%; }
+    /*10%{ width: 50px; }
+    25%{ width: 300px; }*/
+    50%{ opacity: 50%; }
+    /*75%{ width: 300px;}*/
+    100%{ opacity: 100%;}
+ }
+ 
